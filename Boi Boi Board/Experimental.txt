@@ -1,0 +1,32 @@
+    .button1{
+        background-image: url(/Images/Jamaica\ flag.svg.png/);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .button2{
+        background-image: url(/Images/dat\ boi.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+ 
+    }
+    .button3{
+        background-image: url(/Images/Bali-panel-#2_01.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .button4{
+        background-image: url(/Images/blunt.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .button5{
+        background-image:url(/Images/peacesign.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .button6{
+        background-image:url(/Images/bob-marley.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
