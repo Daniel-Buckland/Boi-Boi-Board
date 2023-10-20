@@ -84,7 +84,10 @@
         </div> 
 </div>               
 <footer>
-    <p> &copy; Daniel Buckland Media 2020</p>
+    <p>&copy; <span id="currentYear">2020</span> Boi Boi Productions</p>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </footer>
 <script src="./index.js"></script>
 </body>
