@@ -10,23 +10,40 @@
     header{  
     display: block;      
     text-align: center;
-    background-color:#372f36;
+    background-color:#12265D;
     }
     .welcome{
     padding-top: 75px;
     padding-bottom: 30px;
     font-size: 30px;
+    text-align: center;
     }
     .welcome h1{
     font-size: 75px;        
-    font-family: 'Dokdo', cursive;
-    color: #3c8a50;
+    font-family: 'Permanent Marker', sans-serif;
+    color: #ffffff;
     }
     .welcome P{
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-weight: lighter;    
-    color: #fada31;
+    color: #b7172c;
     }
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+    .div1 { 
+        grid-area: 2 / 1 / 3 / 3;
+     }
+    .div2 { 
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+
+    
     h2{
         text-align: center;
         padding-top: 50px;
@@ -35,6 +52,7 @@
         align-items: center;
         overflow: hidden;
         background-color: #372f36;
+        display: none;
     }
     #mytopnav a{
         float: left;
@@ -99,7 +117,7 @@
         flex-shrink: 0;
         display: block;      
         text-align: center;
-        background-color:#372f36;
+        background-color:#12265D;
 
     }
     footer p{
