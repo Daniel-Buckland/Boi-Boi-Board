@@ -1,18 +1,28 @@
 window.addEventListener('load', () => {
-    const sounds = document.querySelectorAll(".sounds"); 
-    const Card = document.querySelectorAll(".Card");
+    const sounds = document.querySelectorAll(".sound");
+    const Cards = document.querySelectorAll(".Card");
+    const repeatingCards = document.querySelectorAll(".repeatingCard");
+    const repeatingSounds = document.querySelectorAll(".repeatingSound");
 
     console.log(sounds);
 
-    Card.forEach((Card, index) => {
-        Card.addEventListener("click",function(){
+    Cards.forEach((card, index) => {
+        card.addEventListener("click", function () {
             sounds[index].currentTime = 0;
             sounds[index].play();
-            createBubbles(index);
         });
     });
 
-
-
+    repeatingCards.forEach((card, index) => {
+        card.addEventListener("click", function () {
+            console.log(repeatingSounds[index].paused);
+            if (repeatingSounds[index].paused) {
+                repeatingSounds[index].currentTime = 0;
+                repeatingSounds[index].play();
+            }
+            else {
+                repeatingSounds[index].pause();
+            }
+        });
+    });
 });
-

@@ -87,7 +87,7 @@
         margin-bottom: 40px;
     }
     
-    .Card{
+    .Card, .repeatingCard{
         background-size: contain;
         background-attachment: center;
         border-radius: 12px;
@@ -99,7 +99,7 @@
         transition: all, 0.2s;
         
     }
-    .Card:hover{
+    .Card:hover, .repeatingCard:hover{
         cursor: pointer;
         box-shadow: 0 0 8px rgba(255,0,0, 0.6);
         transform: scale(1.02);
