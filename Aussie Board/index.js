@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 
     repeatingCards.forEach((card, index) => {
         card.addEventListener("click", function () {
-            console.log(repeatingSounds[index].paused);
+            console.log(repeatingSounds[index].paused); //dont need this anymore
             if (repeatingSounds[index].paused) {
                 repeatingSounds[index].currentTime = 0;
                 repeatingSounds[index].play();
